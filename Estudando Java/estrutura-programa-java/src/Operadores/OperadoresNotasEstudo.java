@@ -45,6 +45,79 @@ public class OperadoresNotasEstudo {
         contador--;
         //System.out.println(contador);
 
+        
+        /*
+        Operadores relacionais
+
+        >: Maior que
+        <: Menor que 
+        >=: Maior ou igual que
+        <=: Menor ou igual que
+        ==: Igual a 
+        !=: Diferente de
+        */
+
+        
+        double decimal1 = 1.0;
+        double decimal2 = 2.0;
+        boolean ehmaior = decimal2 > decimal1;
+        //System.out.println(ehmaior);
+        
+       Boolean ehmenor = decimal2 > decimal1;
+
+        //System.out.println(ehmenor);
+
+        //System.out.println(decimal2 >= decimal1);
+
+        //System.out.println(decimal2 <= decimal1);
+
+        //System.out.println(decimal1 == decimal1);
+
+        //System.out.println(decimal1 != decimal1);
+
+
+        /*
+        Operadores de atribuição
+
+        =: Atribuição
+        +=: Atribuição soma
+        -=: Atribuição subtração
+        *=: Atribuição multiplicação
+        /=: Atribuição divisão
+        %=: Atribuição módulo
+
+        */
+
+        int variavel = 1;
+        //variavel += 4;
+        //variavel -= 1;
+        //variavel *= 5;
+        //variavel /= -1;
+        variavel %= 1;
+        //System.out.println(variavel);
+
+        /*
+        Operadires lógicos
+
+        &&: E / AND
+        ||: OU / OR
+        !: Negação / NOT
+
+        */
+
+        int valor1 =4;
+        int valor2 =2;
+        boolean expressaoAnd = valor1 < 10 && valor2 <2;
+        //System.out.println(expressaoand);
+
+         boolean expressaoOr= valor1 < 10 || valor2 <2;
+        //System.out.println(expressaoOr);
+
+        boolean expressaoNegada =  (2 < 1);
+        System.out.println(!expressaoNegada);
+    }
+}
 
     }
 }
+
